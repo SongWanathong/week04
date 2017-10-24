@@ -1,13 +1,14 @@
 ﻿using System;
-namespace RandomNumber
+public class intergerTest
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Random random = new Random();
-            int randomNumber = random.Next(0, 100);
-            Console.WriteLine(randomNumber);
-        }
+        int a, b, c, d, e, f;
+        a = 1;
+        b = a + 6;
+        c = b - 3;
+        d = c * 2;
+        e = d / 2;
+        f = e % 2;
     }
 }
